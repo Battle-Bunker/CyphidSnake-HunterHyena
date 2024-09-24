@@ -11,7 +11,7 @@ func main() {
 	metadata := client.SnakeMetadataResponse{
 		APIVersion: "1",
 		Author:     "",
-		Color:      "#888888",
+		Color:      "#0480d9",
 		Head:       "default",
 		Tail:       "default",
 	}
@@ -19,7 +19,7 @@ func main() {
 	portfolio := agent.NewPortfolio(
 
 		agent.NewHeuristic(1.0, "team-health", HeuristicHealth), 
-		agent.NewHeuristic(1.0, "food-distance", HeuristicFood),
+		agent.NewHeuristic(2.0, "food-distance", HeuristicFood),
 		
 	)
 //agent.NewHeuristic(10.0, "snakes", Heuristicsnakes),
