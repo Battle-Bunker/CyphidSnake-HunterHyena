@@ -45,7 +45,7 @@ if math.IsNaN(totalScore) || math.IsInf(totalScore, 0) {
 }
 
 return totalScore
-	return totalScore
+	
 }
 
 // ... (rest of the code remains the same)

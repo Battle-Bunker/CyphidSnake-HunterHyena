@@ -6,29 +6,29 @@ import (
 /*
 type GameSnapshot interface {
   GameID() string
-  Rules() rules.Ruleset
+  Rules() .Ruleset
   Turn() int
   Height() int
   Width() int
-  Food() []rules.Point
-  Hazards() []rules.Point
+  Food() [].Point
+  Hazards() [].Point
   Snakes() []SnakeSnapshot
   You() SnakeSnapshot
   Teammates() []SnakeSnapshot
   YourTeam() []SnakeSnapshot
   Opponents() []SnakeSnapshot
-  ApplyMoves(moves []rules.SnakeMove) (GameSnapshot, error)
+  ApplyMoves(moves [].SnakeMove) (GameSnapshot, error)
 }
 
 type SnakeSnapshot interface {
   ID() string
   Name() string
   Health() int
-  Body() []rules.Point
-  Head() rules.Point
+  Body() [].Point
+  Head() .Point
   Length() int
   LastShout() string
-  ForwardMoves() []rules.SnakeMove
+  ForwardMoves() [].SnakeMove
 }
 */
 

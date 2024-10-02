@@ -18,8 +18,9 @@ func main() {
 
 	portfolio := agent.NewPortfolio(
 
-		agent.NewHeuristic(1.0, "team-health", HeuristicHealth), 
-		agent.NewHeuristic(2.0, "food-distance", HeuristicFood),
+		agent.NewHeuristic(100.0, "team-health", HeuristicHealth), 
+		agent.NewHeuristic(100.0, "food-distance", HeuristicFood),
+		//agent.NewHeuristic(100.0, "flood-fill", HeuristicFreeSpace),
 		
 	)
 //agent.NewHeuristic(10.0, "snakes", Heuristicsnakes),
